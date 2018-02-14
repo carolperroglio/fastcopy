@@ -1,0 +1,73 @@
+h1{
+  font-size: 10px;
+  font-style: normal;
+  font-family: arial;
+  margin-top: 2%;
+}
+li{
+  list-style: none;
+  display: inline;
+}
+
+.navbar{
+  font-size: 15px;
+  margin-top: -5%;
+    }
+
+.fundo{
+  width: 100%;
+  height: 20%;
+  filter: opacity(50%);
+  filter: drop-shadow(16px -50px 0px #ffffdf)
+}
+
+myCarousel{
+  z-index: 1;
+}
+
+  .home:hover {
+    text-shadow: 0 0 8px #F0FFFF;
+  }
+  .serviços:hover {
+  	text-shadow: 0 0 8px #F0FFFF;
+  }
+  .produtos:hover {
+    text-shadow: 0 0 8px #F0FFFF;
+  }
+  .equipe:hover {
+    text-shadow: 0 0 8px #F0FFFF;
+  }
+  .sobre:hover {
+    text-shadow: 0 0 8px #F0FFFF;
+  }
+  .fale:hover {
+    text-shadow: 0 0 8px #F0FFFF;
+  }
+
+  .copytextfooter{
+    font-size: 16px;
+    position: pull-left;
+    color: white;
+    font-family: Source Sans Pro;
+    }
+  .addressfooter{
+    font-size: 15px;
+    position: center;
+    color: white;
+    font-family: lato;
+  }
+  .phone_email{
+    font-size: 15px;
+  position: pull-right;
+    color: white;
+    font-family: Modak;
+  }
+
+  footer{
+    position: fixed;
+      z-index: 100;
+      bottom: 0px;
+      height: 4.5%;
+      width:100%;
+      background: #239D60;
+  }
