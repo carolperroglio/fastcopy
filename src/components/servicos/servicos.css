@@ -1,0 +1,20 @@
+.table{
+  margin-left: 5%;
+  width: 80%;
+}
+h3{
+  font-size: 20px;
+  margin-left: 5%;
+  }
+.logotipomini{
+width: 10%;
+height: auto;
+margin-left: 85%;
+position: absolute;
+filter: contrast(100%);
+filter: saturate(125%);
+}
+.col-md-4{
+  padding-left: 0;
+  padding-right: 0;
+  }

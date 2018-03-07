@@ -1,0 +1,31 @@
+.logotipomini{
+width: 10%;
+height: auto;
+margin-left: 85%;
+position: absolute;
+filter: contrast(100%);
+filter: saturate(125%);
+}
+.btn-group{
+  position: relative;
+}
+body{
+
+}
+
+hr {
+      color: blue;
+      background-color: #FAFAD2;
+      height: 1px;
+    }
+
+    .form-check-input{
+      position: relative;
+              }
+    .form-check-label{
+            line-height: 2;
+    }
+
+    h5{
+      color: #708090;
+    }
