@@ -1,17 +1,18 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--   Bootstrap4     -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
   <!--   Google     -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!--   Font Awesome     -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--   Fontes Google     -->
   <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+  <!--   Bootstrap4     -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--   Java Script     -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!--                        -->
   <!--   Barra de Navegação   -->
   <!--                        -->
@@ -58,16 +59,18 @@
     <h3 style="font-size: 25px; font-family: Muli"><b><center>Entre em contato conosco</center></b></h3>
     <hr>
     <div class="container">
-      <form action="mailto:carolperroglio@gmail.com" method="post" name="Meu_formulario" enctype="text/plain">
+      <form ="formulario" method="post" enctype="text/plain" name="formulario">
   <div class="form-row">
   <div class="form-group col-md-6 col-md-offset-3">
-    <label for="Name">Nome Completo</label>
+    <label for="Name">
+      Nome Completo
+    </label>
     <input type="nome" class="form-control" id="NomeCompleto" aria-describedby="namelHelp" placeholder="Escreva seu nome aqui">
     <small id="NomeCompleto" class="form-text text-muted">Escreva seu nome completo</small>
 </div>
 <div class="form-group col-md-6 col-md-offset-3">
     <label for="Assunto">Assunto</label>
-    <input type="assunto" class="form-control" id="AssuntoDoE-mail" aria-describedby="assuntoHelp" placeholder="Assunto do E-mail">
+    <input type="assunto" name:"assunto" class="form-control" id="AssuntoDoE-mail" aria-describedby="assuntoHelp" placeholder="Assunto do E-mail">
     <small id="AssuntoDoE-mail" class="form-text text-muted">Escreva qual será o assunto deste e-mail</small>
   </div>
 </div>
@@ -123,7 +126,7 @@
   </div>
 </div>
 <div class="btn-group col-md-offset-7" role="group" aria-label="Basic example">
-<button type="submit" class="btn btn-primary  col-md-offset-7">Enviar Formulário</button>
+<button type="submit" class="btn btn-primary  col-md-offset-7" onclick="return validarFormulario()">Enviar Formulário</button>
 <button type="reset" class="btn btn-danger  col-md-offset-">Limpar dados do Formulário</button>
 </div>
 <br>
@@ -132,8 +135,9 @@
 </div>
 </body>
 </html>
-
+<script src="./formulario.js">
+</script>
 <style>
 @import url("./formulario.css");
-</style>
+  </style>
 </html>

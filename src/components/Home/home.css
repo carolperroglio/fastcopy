@@ -6,7 +6,7 @@ li{
 
 .navbar{
   font-size: 18px;
-  margin-top: -5%;
+  margin-top: -2%;
   font-family: Arial;
   color: #00BFFF;
     }
@@ -35,17 +35,17 @@ li{
 .logotipo{
   position: absolute;
   z-index: 10;
-  width: 13%;
+  width: 16%;
   height: auto;
   margin-top: 0.5%;
-  margin-left: 45%;
-}
+  margin-left: 42%;
+  }
 /*Configuração dos ícones do menu*/
   .home:hover {
     text-shadow: 0 0 8px #F0FFFF;
     color: #4169E1;
   }
-  .serviços:hover {
+    .serviços:hover {
   	text-shadow: 0 0 8px #F0FFFF;
     color: #4169E1;
   }
